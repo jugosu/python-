@@ -105,4 +105,66 @@
 #for i in range(3):
 #    sum+=numbers[i]
 #print(int(sum/3))
+#import math
+#n= int (input())
+#print(n,'',math.pow(n,3))
+#def cube(n):
+#    return n**3
+#print(cube(12))
+#a=int(input())
+#b=int(input())
+#def w(a,b):
+#    return a*b
+#def r(a,b):
+#    return (a+b)*2
+#def rectangle(a,b):
+#    return (w(a,b),r(a,b))
+#print(rectangle(a,b))
+#a=20
+#b=30
+#def rectangle(a,b):
+#    area= a*b
+#    perimeter = 2*(a+b)
+#    return area, perimeter
+#print(rectangle(20,30))
+#students = ['이영희', '김철수', '이영희', '조민지', '김철수', '조민지', '이영희', '이영희']
+#x=0
+#for i in students:
+#    if '이영희'==i:
+#            x+=1
+#print(x)
 
+#numbers = [7,17,10,5,4,3,17,5,2,5]
+#x=0
+#for i in numbers:
+#    if 5 == i:
+#        x+=1
+#print(x)
+#for i in range(2,10):
+#    print(i,'단')
+#    for y in range(1,10):
+#        print(i,'X',y,'=',i*y)
+
+#word = 'apple'
+#result = ''
+#for char in 'apple':
+#    if char != 'a':
+#        #print(char)
+#        result = result + char
+#print(result)
+        
+#word = 'apple'
+#result = ''
+#for char in 'apple':
+#    if char != 'a':
+#        #print(char)
+#        result = char + result
+       
+#print(word[::-1])
+#print(''.join(reversed(word)))
+#print(result)
+
+word = 'apple'
+
+for i in range(len(word)):
+    print(word[len(word)-i-1], end='')
